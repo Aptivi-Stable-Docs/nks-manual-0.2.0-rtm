@@ -1,0 +1,28 @@
+---
+description: Build the simulator on Linux!
+icon: linux
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/advanced-and-power-users/building-the-kernel/building-on-linux
+---
+
+# Building on Linux
+
+In Linux systems, you can comfortably build Nitrocid KS using the command line, since it's the most lightweight solution. However, you must have the prerequisites before being able to build KS.
+
+* [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+
+### Using the command-line
+
+If you are a hardcore command-line user or if you prefer using the command-line, follow these steps to build Nitrocid KS right from the command line:
+
+1. Open your terminal emulator on your work directory
+2. Execute `git clone https://github.com/Aptivi/NitrocidKS.git`
+3. Navigate to the cloned repository, `NitrocidKS`
+4. Execute `make dbg` for debug builds and `make` for release builds, or `dotnet restore` and `dotnet build`
+5. After building is done, run `dotnet run`
+
+{% hint style="info" %}
+We recommend that you use `make` to build Nitrocid, since it automatically checks for .NET installation and prepares the environment
+{% endhint %}
