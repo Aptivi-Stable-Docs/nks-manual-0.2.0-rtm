@@ -50,7 +50,7 @@ Depending on your platform, the amount of disk space taken by KS and its runtime
 ## <mark style="color:$primary;">Important considerations for upgrades</mark>
 
 {% hint style="warning" %}
-### Stop!
+#### Stop!
 
 Before you can upgrade, you need to consider the following:
 
