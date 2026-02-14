@@ -4,19 +4,17 @@ icon: slot-machine
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/russian-roulette
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/russian-roulette
 ---
 
 # Russian Roulette
 
-<figure><img src="../../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-As of 0.1.0, this feature has been moved to the kernel addons.
-{% endhint %}
+<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Russian Roulette tests your luck by letting you select your bet whether it's `True` (T) or `False` (F). If you're lucky, you're a winner! Else, you're a loser.
 
-## Controls
+***
+
+## <mark style="color:$primary;">Controls</mark>
 
 You just press either `T` or `F` to test your luck.

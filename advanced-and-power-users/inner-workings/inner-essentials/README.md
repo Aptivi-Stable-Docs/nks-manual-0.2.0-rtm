@@ -4,7 +4,7 @@ icon: diamond
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/advanced-and-power-users/inner-workings/inner-essentials
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials
 ---
 
 # Inner Essentials

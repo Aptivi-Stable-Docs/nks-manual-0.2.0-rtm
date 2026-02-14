@@ -4,14 +4,16 @@ icon: book-open
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/advanced-and-power-users/inner-workings/inner-essentials/mod-manual-pages
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/mod-manual-pages
 ---
 
 # Mod Manual Pages
 
 Manual pages for your kernel modifications allow you to learn more about your mod as an end user and to document various parts of your mod as a mod developer. This is akin to manual pages on Linux, except that it's more limited in terms of syntaxes, allowing free-form bodies.
 
-## Manual page parsing
+***
+
+## <mark style="color:$primary;">Manual page parsing</mark>
 
 At the end of the mod parsing, the manual pages get initialized by the `InitMan()` function, which checks the file extension `.man` and attempts to create a `Manual` class instance.
 
@@ -41,6 +43,10 @@ Optionally, manual pages can contain comments, under the `~~-` prefix. The parse
 
 After this is done, the manual page gets added to the available manual pages list, which lets the manual page management functions and the viewer manipulate with the parsed manual instance.
 
+<details>
+
+<summary>Example of a simple manual page file</summary>
+
 This is an example of a simple manual page file of a mod:
 
 ```
@@ -56,18 +62,24 @@ This is my mod documentation, which hosts the documentation and technical inform
 -BODY END-
 ```
 
-## Manual page viewer
+</details>
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+***
+
+## <mark style="color:$primary;">Manual page viewer</mark>
+
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 The manual page viewer can be invoked with the `modmanual` command, which takes an argument that should be a valid kernel mod name.
 
 When this command is executed, the manual page viewer TUI starts by listing all the available manual pages that the mod provides. Then, it shows you a brief description in the second pane, which will most likely tell you to press `Shift + I` to get access to more information.
 
-### Controls
+### <mark style="color:$primary;">Controls</mark>
 
 The viewer supports these controls:
 
-* `F1`: Info about the selected manual page
-* `Shift + I`: Opens the info box containing your mod manual
-* `ESC`: Exits the viewer
+| Keybinding  | Description                                    |
+| ----------- | ---------------------------------------------- |
+| `F1`        | Info about the selected manual page.           |
+| `Shift + I` | Opens the info box containing your mod manual. |
+| `ESC`       | Exits the viewer.                              |

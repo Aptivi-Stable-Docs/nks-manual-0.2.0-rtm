@@ -4,22 +4,22 @@ icon: display-chart-up-circle-dollar
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/common-programs/stocks
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/stocks
 ---
 
 # Stocks
 
 <figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Nitrocid KS provides this feature as an addon.
-{% endhint %}
-
 Stocks is a 0.1.1 extra feature that allows you to see the most accurate simple stock price analysis of a company that is registered in the NASDAQ database. The interactive TUI that shows you the hourly stock information can be run by executing the "`stock`" command that allows you to check the current stock prices. You can optionally run this command with the company symbol.
 
 {% hint style="info" %}
 You might be prompted for your [AlphaVantage API key](https://www.alphavantage.co/support/#api-key). Get one for free here, but beware that it only allows 25 requests maximum per day.
 {% endhint %}
+
+***
+
+## <mark style="color:$primary;">Stock information</mark>
 
 This interactive TUI provides you with the following information:
 

@@ -4,34 +4,28 @@ icon: calendar-days
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/common-programs/calendar
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/calendar
 ---
 
 # Calendar
 
-{% hint style="info" %}
-Nitrocid KS provides this feature as an addon.
-{% endhint %}
-
 The calendar shows you days, weeks, and months within the selected year. It not only shows how many days in a month, but it also shows the weekends in a special color or formatting and the business days in the normal color. A calendar can handle events in either a single day or within a day range. Modern calendars get synced with the latest holidays in your country.
 
-The simulated kernel provides you with the calendar management application that attempts to simulate the above functionality. Choose a function to get started. In summary, these usages are found within the `calendar` command.
+The simulated kernel provides you with the calendar management application that attempts to simulate the above functionality.
 
-* `calendar [-calendar=type] [-legacy] <tui> [year] [month]`
-* `calendar <event> <add> <date> <title>`
-* `calendar <event> <remove> <eventid>`
-* `calendar <event> <list>`
-* `calendar <event> <saveall>`
-* `calendar <reminder> <add> <dateandtime> <title>`
-* `calendar <reminder> <remove> <reminderid>`
-* `calendar <reminder> <list>`
-* `calendar <reminder> <saveall>`
+***
 
-### Interactive Calendar
+## <mark style="color:$primary;">Interactive Calendar</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-The calendar can be used to show you either the current month or the selected year in the current month or the selected year and month. The interactive calendar allows you to interactively see the current day, the month, and the year. To utilize the functionality, use the following command.
+The calendar can be used to show you either the current month or the selected year in the current month or the selected year and month. The interactive calendar allows you to interactively see the current day, the month, and the year.
+
+<details>
+
+<summary>Usage</summary>
+
+To utilize the functionality, use the following command.
 
 * `calendar [-calendar=type] [-legacy] <tui>`
   * Shows you the interactive calendar in the current year and month
@@ -39,6 +33,12 @@ The calendar can be used to show you either the current month or the selected ye
   * Shows you the interactive calendar in the selected year in the current month
 * `calendar [-calendar=type] [-legacy] <tui> [year] [month]`
   * Shows you the interactive calendar in the selected year and month
+
+</details>
+
+<details>
+
+<summary>Highlighting rules for days</summary>
 
 The following days are highlighted in this way:
 
@@ -50,11 +50,21 @@ The following days are highlighted in this way:
 * The days that contain reminders are surrounded with the `(` and the `)` signs.
 * The days that contain events and reminders at the same time are surrounded with the `[` and the `]` signs.
 
-### Events
+</details>
 
-<figure><img src="../../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+***
+
+## <mark style="color:$primary;">Events</mark>
+
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 If there is a particular event that will happen in the future, you can use this subcommand to manage your events.
+
+<details>
+
+<summary>Usage</summary>
+
+To utilize the functionality, use the following command.
 
 * `calendar <event> <add> <date> <title>`
   * This command lets you add the event to the specified date with the title
@@ -65,11 +75,21 @@ If there is a particular event that will happen in the future, you can use this 
 * `calendar <event> <saveall>`
   * This command lets you save all the events to your kernel configuration directory. The events will get loaded upon startup.
 
-### Reminders
+</details>
 
-<figure><img src="../../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+***
+
+## <mark style="color:$primary;">Reminders</mark>
+
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you would like to be reminded about something in the future, you can use this subcommand to manage your reminders.
+
+<details>
+
+<summary>Usage</summary>
+
+To utilize the functionality, use the following command.
 
 * `calendar <reminder> <add> <dateandtime> <title>`
   * This command lets you add the reminder to the specified date and time with the title
@@ -79,3 +99,5 @@ If you would like to be reminded about something in the future, you can use this
   * This command lets you list all the reminders and their IDs
 * `calendar <reminder> <saveall>`
   * This command lets you save all the reminders to your kernel configuration directory. The reminders will get loaded upon startup.
+
+</details>

@@ -4,12 +4,12 @@ icon: star
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features
 ---
 
 # Simulated Kernel Features
 
-<figure><img src="../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (190) (1).png" alt=""><figcaption></figcaption></figure>
 
 Within the simulated kernel, there are big amounts of features that actually excite you. As new versions get released, new and spectacular features get added.
 
@@ -17,7 +17,11 @@ Within the simulated kernel, there are big amounts of features that actually exc
 Some features of the kernel, such as the usage of SpecProbe driver, may need elevated privileges. To get access to these elevated privileges on Windows, use the `winelevate` command. However, we advice that you don't restart Nitrocid as an elevated application unless absolutely necessary.
 {% endhint %}
 
-As of 0.1.1, you can now use your mouse to navigate the kernel's interactive TUIs, but that doesn't mean that you can quit using your keyboard, as you'll still need it for many tasks, including the UESH shell. The buttons below lists some of the features that blow your mind.
+***
+
+## <mark style="color:$primary;">Features</mark>
+
+The buttons below lists some of the features that blow your mind.
 
 {% content-ref url="the-nitrocid-homepage.md" %}
 [the-nitrocid-homepage.md](the-nitrocid-homepage.md)

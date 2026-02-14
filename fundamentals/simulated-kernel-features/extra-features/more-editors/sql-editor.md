@@ -4,12 +4,12 @@ icon: database
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/more-editors/sql-editor
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-editors/sql-editor
 ---
 
 # SQL Editor
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The SQL Shell allows you to execute any SQL command to a connected database file. It supports databases which are created by SQLite, MySQL, and their derivatives.
 
@@ -17,17 +17,11 @@ The SQL Shell allows you to execute any SQL command to a connected database file
 For list of commands supported by MySQL, consult this [link](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html).
 {% endhint %}
 
-## Commands
+***
 
-You can consult the below page for the list of SQL editor commands.
+## <mark style="color:$primary;">Interactive TUI</mark>
 
-{% content-ref url="../../shells/commands-list.md" %}
-[commands-list.md](../../shells/commands-list.md)
-{% endcontent-ref %}
-
-## Interactive TUI
-
-<figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 You can also interactively edit SQL files using the powerful interactive TUI for hex editing. You can consult the below page for more information about how to use it:
 

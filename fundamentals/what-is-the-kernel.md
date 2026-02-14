@@ -4,7 +4,7 @@ icon: corn
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/what-is-the-kernel
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/what-is-the-kernel
 ---
 
 # What is the Kernel?
@@ -15,7 +15,7 @@ The kernel controls hardware and their resources, such as the input and output o
 
 It also performs its own tasks, such as handling hardware interrupts, managing hardware, and running processes, in the kernel space that is protected from access by external applications.
 
-Kernel Simulator attempts to simulate how the kernel works and how the operating system interacts with the kernel. To deeply explain how, see the next page.
+Nitrocid attempts to simulate how the kernel works and how the operating system interacts with the kernel. To deeply explain how, see the next page.
 
 {% content-ref url="what-is-nitrocid-ks.md" %}
 [what-is-nitrocid-ks.md](what-is-nitrocid-ks.md)

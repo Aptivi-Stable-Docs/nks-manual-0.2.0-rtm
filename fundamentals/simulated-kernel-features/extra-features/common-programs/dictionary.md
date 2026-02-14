@@ -4,18 +4,22 @@ icon: book
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/common-programs/dictionary
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/dictionary
 ---
 
 # Dictionary
 
-<figure><img src="../../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Nitrocid KS features a dictionary supplied as a separate addon to allow you to get a definition of an English word. You can define a word of your choice, as long as it's found in the back end, which is the [Free Dictionary API](https://dictionaryapi.dev/).
 
 {% hint style="info" %}
 `dictionaryapi.dev` API is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
 {% endhint %}
+
+***
+
+## <mark style="color:$primary;">Usage</mark>
 
 This feature can be used by executing the `dict` command, passing it a word that you want to define, such as `hello` or `goodbye`. The dictionary command provides you with the following information:
 
@@ -29,4 +33,6 @@ This feature can be used by executing the `dict` command, passing it a word that
 * Base synonyms
 * Base antonyms
 
+{% hint style="info" %}
 The availability of said information can vary, depending on a word and on a part of speech used in various meanings.
+{% endhint %}

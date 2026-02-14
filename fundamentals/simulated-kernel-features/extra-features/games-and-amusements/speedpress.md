@@ -4,20 +4,19 @@ icon: keyboard
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/speedpress
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/speedpress
 ---
 
 # SpeedPress
 
-<figure><img src="../../../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-As of 0.1.0, this feature has been moved to the kernel addons.
-{% endhint %}
+<figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 You can test yourself finding a specific key in your keyboard, but how fast can you find a key? Find out by playing this game to enter the test.
 
-## Controls
+***
 
-* `Any key`: Submit a key
-* `ESC`: Exit the game
+## <mark style="color:$primary;">Game Controls</mark>
+
+Below controls are supported:
+
+<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Any key</code></td><td>Submits a key</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>

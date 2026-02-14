@@ -4,30 +4,34 @@ icon: language
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/aESk3Ba2ESn3uLV5034B/fundamentals/simulated-kernel-features/languages
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/languages
 ---
 
 # Localization
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Localization was implemented when computers were distributed in non-English countries to aid the users in using their computers in their native language. This feature is currently supported in both Windows and Unix-based operating systems.
 
 However, Linux boot messages don't get localized unless the localization is set, which is done in the middle of the boot process. This simulator attempts to localize the boot messages in the start of the process.
 
-{% hint style="info" %}
-Extra languages are bundled as a kernel extras addon.
-{% endhint %}
+***
 
-## Setting language or culture
+## <mark style="color:$primary;">Setting language or culture</mark>
 
 You can set the language or the culture using the `settings` command under the `General` section. Any language changes will be saved to the configuration file.
 
+{% hint style="info" %}
 Languages usually get translated at the end of each development period of each upcoming kernel version, so it's normal to see untranslated strings in development versions. If you still see these untranslated strings in the final version, report them to us.
+{% endhint %}
 
-### Through settings
+Expand a section to get started.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<details>
+
+<summary>Through settings</summary>
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 To change the simulated kernel language using the settings application, follow these steps:
 
@@ -45,9 +49,21 @@ Not all languages are supported. In case you select a language that is not suppo
 Note that your account must have either the administrative permissions enabled or the settings management permission granted to be able to use this command.
 {% endhint %}
 
-### Through command-line
+</details>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<details>
+
+<summary>Through command-line</summary>
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+If you don't want to use the Settings TUI, you can also do it using the command-line from the main shell.
+
+{% hint style="info" %}
+Note that your account must have either the administrative permissions enabled or the settings management permission granted to be able to use this command.
+{% endhint %}
+
+#### <mark style="color:$primary;">Changing the language</mark>
 
 To change the simulated kernel language using the command-line, follow these steps:
 
@@ -56,6 +72,8 @@ To change the simulated kernel language using the command-line, follow these ste
    1. To set the language for your user, you can use the `-user` flag.
 3. Log-out and log in again.
 
+#### <mark style="color:$primary;">Changing the culture</mark>
+
 To change the simulated kernel culture using the command-line, follow these steps:
 
 1. Log-in to the system account, `root`, or any of the administrators or users that has at least the settings management permission
@@ -63,6 +81,4 @@ To change the simulated kernel culture using the command-line, follow these step
    1. To set the culture for your user, you can use the `-user` flag.
 3. Log-out and log in again.
 
-{% hint style="info" %}
-Note that your account must have either the administrative permissions enabled or the settings management permission granted to be able to use this command.
-{% endhint %}
+</details>
